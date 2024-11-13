@@ -74,7 +74,7 @@ const HoverableItem = ({ item }) => {
         {item}
       </p>
       {item === "Solutions" && (
-        <button className="px-[8px] py-[2px] text-[#067647] border border-[#ABEFC6] text-[10px] sm:text-[12px] font-[500] absolute left-[100px] sm:left-[80px] mt-2 rounded-[16px]">
+        <button className="px-[8px] py-[2px] text-[#067647] border border-[#ABEFC6] text-[10px] sm:text-[12px] font-[500] absolute left-[80px] sm:left-[80px] mt-2 rounded-[16px]">
           New
         </button>
       )}
