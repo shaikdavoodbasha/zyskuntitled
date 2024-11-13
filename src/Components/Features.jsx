@@ -56,7 +56,7 @@ const Features = () => {
         <div className='mt-12 flex flex-col justify-center gap-4  items-center'>
             <p className='text-[#6941C6] text-[14px] sm:text-[16px] font-[600]'>Feature</p>
             <p className=' text-[30px] sm:text-[36px] font-[600] text-[#101828] text-center'>Analytics that feels like it’s from the future</p>
-            <p className='max-w-[55vw] text-[18px] sm:text-[20px] text-[#475467] font-[400] text-center'>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+            <p className='max-w-[70vw] sm:max-w-[55vw] text-[18px] sm:text-[20px] text-[#475467] font-[400] text-center'>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
             <div className='grid grid-cols-1 sm:grid-cols-3  gap-6 mt-8  w-full'>
                 {
                     data.map((item, id) => {

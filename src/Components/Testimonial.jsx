@@ -4,7 +4,7 @@ import Testimonialimg from "../assets/Avatar1.png"
 
 const Testimonial = () => {
     return (
-        <div className='mt-7 sm:mt-[50px] sm:py-[96px]  flex flex-col justify-center items-center gap-8 bg-[#F9FAFB] px-6 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
+        <div className='mt-7 sm:mt-[50px] sm:py-[96px] py-[40px]  flex flex-col justify-center items-center gap-8 bg-[#F9FAFB] px-6 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
             <div className='flex items-center gap-2'>
                 <img src={greenlogo} alt="" />
                 <h1 className='text-[26px] sm:text-[30px] font-[600] text-[#101828]'>Sisyphus</h1>
