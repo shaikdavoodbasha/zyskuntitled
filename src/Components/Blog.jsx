@@ -84,13 +84,13 @@ const Blog = () => {
                     })
                 }
             </div>
-            <button className='block sm:hidden mt-[40px]  px-[200px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff] border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s] mx-auto'>Veiw all posts</button>
+            <button className='block sm:hidden mt-[40px]  px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff] border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s] mx-auto'>Veiw all posts</button>
             <div className=' w-full rounded-[16px] bg-[#F9FAFB] flex flex-col  justify-center items-center gap-8 py-[96px] mt-[50px]'>
                 <p className='text-[#101828] text-[32px] sm:text-[36px] font-[600] text-center'>Start your free trial</p>
                 <p className='text-[#475467] text-[18px] sm:text-[20px] font-[400] text-center'>Join over 4,000+ startups already growing with Untitled.</p>
                 <div className='flex flex-col sm:flex-row gap-3'>
-                    <button className='  px-[200px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#344054] font-semibold border rounded-[8px] text-[14px] sm:text-[16px] bg-[#ffffff] whitespace-nowrap'>Learn more</button>
-                    <button className=' px-[200px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff]  font-semibold border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s]'>Get started</button>
+                    <button className='  px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#344054] font-semibold border rounded-[8px] text-[14px] sm:text-[16px] bg-[#ffffff] whitespace-nowrap'>Learn more</button>
+                    <button className=' px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff]  font-semibold border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s]'>Get started</button>
                 </div>
             </div>
 
