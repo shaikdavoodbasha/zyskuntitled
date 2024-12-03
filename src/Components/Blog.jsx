@@ -45,9 +45,9 @@ const Blog = () => {
         }
     ]
     return (
-        <div className='mt-20 sm:mt-20 py-[56px] sm:py-[96px]  border-t px-6 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
+        <div className='w-full mt-20 sm:mt-20 py-[56px] sm:py-[96px]  border-t px-6 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
             <div className='flex justify-between  items-start '>
-                <div className='flex flex-col justify-center gap-6'>
+                <div className='flex flex-col justify-center gap-3'>
                     <h1 className='text-[#6941C6] text-[14px] sm:text-[16px] font-[600]'>Our blog</h1>
                     <h2 className='text-[#101828] text-[28px] sm:text-[36px] font-[600]'>Lastest blog posts</h2>
                     <p className='text-[#475467] text-[18px] sm:text-[20px] font-[400]'>Tool and strategies modern teams need to help their companies grow.</p>
@@ -60,12 +60,12 @@ const Blog = () => {
                 {
                     data.map((item, id) => {
                         return (
-                            <div key={id} className='flex flex-col  justify-center gap-4 '>
+                            <div key={id} className='flex flex-col  justify-center gap-2 '>
                                 <img src={item.image} alt="" />
                                 <h2 className='text-[#6941C6] text-[12px] sm:text-[14px] font-[600]'>{item.smallheading}</h2>
                                 <div className='flex justify-betweenl items-cente gap-4r'>
                                     <div className='flex  flex-col items-start gap-3'>
-                                        <h1 className='text-[18px] sm:text-[20px] font-[600] text-[#101828] text-center'>{item.heading}</h1>
+                                        <h1 className='text-[24px] font-[600] text-[#101828] text-center'>{item.heading}</h1>
                                         <p className='max-w-fit text-[14px] sm:text-[16px] font-[400] text-[#475467]  text-start'>{item.para}</p>
                                     </div>
                                     <div className='text-[#101828] text-[18px]'>
@@ -84,13 +84,13 @@ const Blog = () => {
                     })
                 }
             </div>
-            <button className='block sm:hidden mt-[40px]  px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff] border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s] mx-auto'>Veiw all posts</button>
-            <div className=' w-full rounded-[16px] bg-[#F9FAFB] flex flex-col  justify-center items-center gap-8 py-[96px] mt-[50px]'>
+            <button className='block sm:hidden mt-[40px] w-full  py-[12px] text-[#ffffff] border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s] mx-auto'>Veiw all posts</button>
+            <div className=' w-full rounded-[16px] bg-[#F9FAFB] flex flex-col  justify-center items-center gap-5 py-[96px] mt-[50px]'>
                 <p className='text-[#101828] text-[32px] sm:text-[36px] font-[600] text-center'>Start your free trial</p>
                 <p className='text-[#475467] text-[18px] sm:text-[20px] font-[400] text-center'>Join over 4,000+ startups already growing with Untitled.</p>
-                <div className='flex flex-col sm:flex-row gap-3'>
-                    <button className='  px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#344054] font-semibold border rounded-[8px] text-[14px] sm:text-[16px] bg-[#ffffff] whitespace-nowrap'>Learn more</button>
-                    <button className=' px-[100px] py-[12px] sm:px-[20px] sm:py-[12px] text-[#ffffff]  font-semibold border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s]'>Get started</button>
+                <div className='flex flex-col-reverse justify-center items-center sm:flex-row gap-3 w-full'>
+                    <button className=' w-full sm:w-[129px] sm:h-[48px] sm:px-[20px] py-[12px]  text-[#344054] font-semibold border rounded-[8px] text-[14px] sm:text-[16px] bg-[#ffffff] whitespace-nowrap'>Learn more</button>
+                    <button className=' w-full sm:w-[129px] sm:h-[48px] sm:px-[20px] py-[12px]  text-[#ffffff]  font-semibold border rounded-[8px] bg-[#6941C6] text-[14px] sm:text-[16px] hover:transition hover:bg-opacity-100  whitespace-nowrap bg-opacity-80 duration-[.5s]'>Get started</button>
                 </div>
             </div>
 

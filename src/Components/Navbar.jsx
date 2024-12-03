@@ -33,7 +33,7 @@ const Navbar = () => {
             </div>
             <div >
                 <img className='hidden sm:block' src={navimg} alt="image" />
-                <div className='block sm:hidden text-[20px] mt-2'>
+                <div className='block sm:hidden text-[24px] mt-2'>
                     <IoMdMenu />
                 </div>
             </div>

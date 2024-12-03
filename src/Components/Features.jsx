@@ -56,15 +56,15 @@ const Features = () => {
         <div className='mt-12 flex flex-col justify-center gap-4  items-center'>
             <p className='text-[#6941C6] text-[14px] sm:text-[16px] font-[600]'>Feature</p>
             <p className=' text-[30px] sm:text-[36px] font-[600] text-[#101828] text-center'>Analytics that feels like it’s from the future</p>
-            <p className='max-w-[70vw] sm:max-w-[55vw] text-[18px] sm:text-[20px] text-[#475467] font-[400] text-center'>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
-            <div className='grid grid-cols-1 sm:grid-cols-3  gap-6 mt-8  w-full'>
+            <p className='max-w-[90vw] sm:max-w-[55vw] text-[18px] sm:text-[20px] text-[#475467] font-[400] text-center'>Powerful, self-serve product and growth analytics to help you convert, engage, and retain more users. Trusted by over 4,000 startups.</p>
+            <div className='grid grid-cols-1 sm:grid-cols-3 gap-2 mt-8  w-full'>
                 {
                     data.map((item, id) => {
                         return (
-                            <div key={id}  className='px-3 py-3 flex flex-col items-center justify-center gap-4 border rounded sm:border-none sm:rounded-none'>
-                                <img className='px-[12px] py-[10px] border rounded-md'  src={item.image} alt="" />
+                            <div key={id} className='w-full px-3 py-3 flex flex-col items-center justify-center gap-4 border rounded sm:border-none sm:rounded-none'>
+                                <img className='px-[12px] py-[10px] border rounded-md' src={item.image} alt="" />
                                 <h1 className='text-[18px] sm:text-[20px] font-[600] text-[#101828] text-center'>{item.heading}</h1>
-                                <p className='text-[14px] sm:text-[16px] font-[400] text-[#475467] text-center'>{item.para}</p>
+                                <p className='text-[14px] sm:text-[16px] font-[400] text-[#475467] text-center w-full sm:max-w-[384px]'>{item.para}</p>
                             </div>
                         )
                     })

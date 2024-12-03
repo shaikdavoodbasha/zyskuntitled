@@ -42,8 +42,8 @@ const Footer = () => {
           </div>
         ))}
       </div>
-      <div className="flex justify-between items-start mt-[60px] py-[30px] flex-col sm:flex-row border-t border-t-[#EAECF0]">
-        <div className="flex gap-2 items-center">
+      <div className="flex justify-between gap-5 items-start mt-[60px] py-[30px] flex-col sm:flex-row border-t border-t-[#EAECF0]">
+        <div className="flex gap-1 items-center">
           <img src={logo} alt="Logo" />
           <h1 className="text-[#101828] text-[20px] sm:text-[24px] font-semibold">Untitled UI</h1>
         </div>

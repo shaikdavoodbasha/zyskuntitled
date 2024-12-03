@@ -25,6 +25,8 @@ const App = () => {
       </div>
       <div className='px-6 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
         <Seconfeature />
+      </div>
+      <div className='px-1 sm:px-[5vw] md:px-[7vw] lg:px-[8vw]'>
         <FAQ />
       </div>
       <div>
