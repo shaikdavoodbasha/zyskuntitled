@@ -5,7 +5,7 @@ const HoverText = () => {
 
     const handleMouseEnter = () => {
         setIsHovered(true);
-        setTimeout(() => setIsHovered(false), 500); // Reappears after 0.5 seconds
+        setTimeout(() => setIsHovered(false), 500); 
     };
 
     return (
