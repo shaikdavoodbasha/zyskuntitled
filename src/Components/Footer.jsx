@@ -58,7 +58,7 @@ const HoverableItem = ({ item }) => {
 
   const handleMouseEnter = () => {
     setIsHovered(true);
-    setTimeout(() => setIsHovered(false), 100); // Reappears after 0.5 seconds
+    setTimeout(() => setIsHovered(false), 100); 
   };
 
   return (
